@@ -5,11 +5,17 @@ Simple script to use all your "${insert_name}ctl" stuff
 
 Only for command line (cli, terminal, console) usage. Not intended for scripts.
 
-## Main Idea
+## Concepts
 
-Basically, this is just a bunch of aliases for common \*ctl commands.
+Basically, this can be just a bunch of aliases for common \*ctl commands.
 
 alias ctl-system='systemctl status'
+
+**or**
+
+$> ctl -s apache2 status **---** equals to 'systemctl status apache2'
+
+Yeah, that's more like it.
 
 ## So...
 
